@@ -1,0 +1,252 @@
+/**************************/
+/* BELOW 1200px (Landscape Tablets) */
+/**************************/
+@media (max-width: 75em) {
+  .categories-header-link:link,
+  .categories-header-link:visited {
+    font-size: 1.4rem;
+  }
+  .categories-img {
+    width: 60%;
+  }
+  .categories-name {
+    font-size: 1.2rem;
+  }
+  .card-icon {
+    width: 2.4rem;
+    height: 2.4rem;
+  }
+  .card-button {
+    font-size: 1.4rem;
+  }
+  .footer-header {
+    font-size: 1.6rem;
+    text-transform: capitalize;
+  }
+  .footer-desc {
+    font-size: 1rem;
+  }
+  .footer-list {
+    list-style: none;
+    margin-bottom: 2.4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    font-size: 1rem;
+    color: #e6e6e6;
+    line-height: 1.7;
+  }
+}
+
+/**************************/
+/* BELOW 944px (Tablets) */
+/**************************/
+
+@media (max-width: 59em) {
+  .hero-sec {
+    margin: 1.8rem 0;
+  }
+  .shop-categories {
+    grid-template-columns: 1fr 1fr;
+  }
+  .nav-main {
+    grid-template-columns: 1fr 4fr 1fr 1fr 1fr 1fr;
+  }
+  .search-button {
+    display: none;
+  }
+  .nav-categories {
+    display: none;
+  }
+  .btn-mobile-nav {
+    display: block;
+  }
+  .categories-name {
+    font-size: 0.9rem;
+  }
+  .sale-header {
+    font-size: 4.4rem;
+  }
+  .sale-details {
+    font-size: 2.4rem;
+  }
+  .sale-btn:link,
+  .sale-btn:visited {
+    padding: 1.2rem 6.4rem;
+    font-size: 1rem;
+  }
+  .sale-img {
+    width: 90%;
+  }
+
+  .footer-cont {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.6rem;
+    border-bottom: 1px solid #596182;
+  }
+  .footer-links-box {
+    grid-row: 1;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #596182;
+  }
+  .footer-adreess-box {
+    grid-row: 2;
+    text-align: center;
+    border-bottom: 1px solid #596182;
+  }
+  .footer-logo-box {
+    text-align: center;
+  }
+  .social-logos-box {
+    justify-content: center;
+  }
+  .footer-email-box {
+    text-align: center;
+  }
+  .footer-input {
+    padding: 1.2rem 2.4rem;
+  }
+  .footer-logos {
+    justify-content: center;
+  }
+}
+
+/**************************/
+/* BELOW 704px (Smaller tablets) */
+/**************************/
+@media (max-width: 44em) {
+  .hero-sec {
+    margin: 1.8rem 0;
+  }
+  .nav-name {
+    display: none;
+  }
+  .souq-cairo-logo {
+    width: 90%;
+  }
+  .btn-hero {
+    display: none;
+  }
+  .btn-dot {
+    width: 0.8rem;
+    height: 0.8rem;
+  }
+  .categories-name {
+    font-size: 1.2rem;
+  }
+  .categories {
+    grid-template-columns: 1fr 1fr;
+  }
+  .categories-header h2 {
+    font-size: 1.8rem;
+  }
+  .sale-header {
+    font-size: 3.6rem;
+  }
+  .sale-details {
+    font-size: 1.8rem;
+  }
+  .sale-btn:link,
+  .sale-btn:visited {
+    padding: 1.2rem 4.8rem;
+    font-size: 1rem;
+  }
+  .sale-img {
+    width: 100%;
+  }
+  .spec-big-box {
+    grid-template-columns: 1fr;
+    gap: 2.4rem;
+    justify-items: center;
+  }
+  .line {
+    display: none;
+  }
+}
+
+/**************************/
+/* BELOW 544px (Phones) */
+/**************************/
+
+@media (max-width: 34em) {
+  .container {
+    padding: 0 1.8rem;
+  }
+  .header h3 {
+    font-size: 0.8rem;
+  }
+  .link-name {
+    font-size: 0.8rem;
+  }
+  .header-icon {
+    width: 1.4em;
+    height: 1.4rem;
+  }
+  .header-icon-qu {
+    width: 1.8rem;
+    height: 1.8rem;
+  }
+  .nav-main {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    row-gap: 0.8rem;
+    margin-bottom: 1.2rem;
+    justify-items: center;
+    padding-bottom: 1rem;
+  }
+  .btn-mobile-nav {
+    justify-self: right;
+  }
+  .souq-cairo-logo {
+    width: 80%;
+    align-self: center;
+  }
+
+  .search-box {
+    grid-row: 2;
+    grid-column: 1/-1;
+    border-radius: 16px;
+  }
+  .hero-sec {
+    margin: 1.8rem 0;
+  }
+  .header-edit {
+    grid-template-columns: 1fr;
+  }
+  .brands-bottom {
+    grid-template-columns: 1fr;
+    gap: 4.4rem;
+  }
+  .brands-bottom hr {
+    display: none;
+  }
+  .sale {
+    gap: 4.4rem;
+    padding: 2.2rem;
+  }
+  .sale-header {
+    font-size: 2rem;
+  }
+  .sale-details {
+    font-size: 1.4rem;
+  }
+  .sale-btn:link,
+  .sale-btn:visited {
+    padding: 0.8rem 2.2rem;
+    font-size: 1rem;
+  }
+  .sale-img {
+    width: 120%;
+  }
+  .brands-box img {
+    width: 120px;
+    height: 20px;
+  }
+  .categories-name {
+    font-size: 1rem;
+  }
+  .shop-categories {
+    grid-template-columns: 1fr;
+  }
+}
